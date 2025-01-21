@@ -1,0 +1,7 @@
+body .main-nav > li > a .menu-text {
+    font-weight: normal;
+}
+
+html body .content h2{
+	font-family: inherit !important;
+}

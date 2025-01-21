@@ -1,0 +1,52 @@
+/*
+Theme Name: the7dtchild
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: The7 is perfectly scalable, performance and SEO optimized, responsive, retina ready multipurpose WordPress theme. It will fit every site – big or small. From huge corporate portals to studio or personal sites – The7 will become a great foundation for your next project!
+Version: 1.0.0
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+Template: dt-the7
+*/
+
+.color-white{color:white;}
+.primary-button {
+	background-color: #F7931E;
+    border-radius: 30px;
+    color: #002F4C;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 7px 10px;
+	transition: all 0.3s;
+}
+.primary-button:hover {
+    color: #ffffff;
+    background-color: #2c76ad;
+}
+.primary-button i {
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 10px 0 0;
+    position: relative;
+    top: 2px;
+}
+
+body .main-nav > li > a {
+    margin: 18px 36px 18px 20px;
+}
+
+#bottom-footer-menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+    border: 0;
+}
+@media only screen and (max-width: 500px){
+	#bottom-footer-menu ul li {
+    margin: 0 8px;
+	}
+}
+#bottom-footer-menu ul li a {
+    color: #fff;
+}
+#bottom-footer-menu ul {
+}

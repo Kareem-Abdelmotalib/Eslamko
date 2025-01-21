@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(v2/NotoKufiArabic-Regular.eot);
+  src: url(v2/NotoKufiArabic-Regulard41d.eot?#iefix) format('embedded-opentype'),
+       url(v2/NotoKufiArabic-Regular.woff2) format('woff2'),
+       url(v2/NotoKufiArabic-Regular.woff) format('woff'),
+       url(v2/NotoKufiArabic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(v2/NotoKufiArabic-Bold.eot);
+  src: url(v2/NotoKufiArabic-Boldd41d.eot?#iefix) format('embedded-opentype'),
+       url(v2/NotoKufiArabic-Bold.woff2) format('woff2'),
+       url(v2/NotoKufiArabic-Bold.woff) format('woff'),
+}
+
+body, body select{direction: rtl;text-align: right;}
+html body,
+html,
+p,html body h1,html body h2,html body h3,html body h4,html body h5,html body h6,
+nav, 
+select, 
+a,
+html body header#top nav > ul > li > a
+html body h6, html body .row .col h6,
+html body h5, html body .row .col h5,
+html body h4, html body .row .col h4,
+html body h3, html body .row .col h3,
+html body h2, html body .row .col h2,
+html body h1, html body .row .col h1,
+html body .navbar-nav > li > a,
+html, body, html body.page, html .wf-container > *,
+body .main-nav > li > a .menu-text,
+body .content h2,
+button, input, textarea
+{
+    font-family: 'Noto Kufi Arabic',Tahoma, Geneva, sans-serif;
+	/* line-height: 1.9; */
+}
