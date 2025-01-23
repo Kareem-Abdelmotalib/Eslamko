@@ -920,10 +920,10 @@
   .mobile-mini-widgets-in-menu.second-switch-no-widgets {
     padding: 0;
   }
-  .sticky-mobile-on.masthead .mobile-branding .sticky-mobile-logo-second-switch img,
-  .show-mobile-logo.side-header.show-device-logo.sticky-mobile-on.masthead .mobile-branding .sticky-mobile-logo-second-switch img,
-  .sticky-mobile-on.masthead .mobile-branding .sticky-mobile-logo-second-switch,
-  .show-mobile-logo.side-header.show-device-logo.sticky-mobile-on.masthead .mobile-branding .sticky-mobile-logo-second-switch {
+   img,
+  .show-mobile-logo.side-header.show-device-logo img,
+  ,
+  .show-mobile-logo.side-header.show-device-logo {
     display: block;
   }
   .masthead .top-bar .mini-widgets > * {
